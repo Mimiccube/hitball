@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      overflow: hidden;
+    }
+    
+    #avatar {
+      position: absolute;
+      left: 880px;
+      top: 940px;
+      width: 100px;
+      height: 35px;
+      background-image: url('avatar3.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #ball {
+      position: absolute;
+      left: 880px;
+      top: 100px;
+      width: 25px;
+      height: 25px;
+      background-image: url('ball2.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #result {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 50px;
+      font-family: sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 id="title">hit ball hardmode!</h1>
+  <div id="avatar"></div>
+  <div id="ball" img id="ball"></div>
+  <div id="result"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="hardmode_script.js">
+  </script>
+</body>
+</html>
